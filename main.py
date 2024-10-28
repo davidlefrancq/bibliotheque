@@ -19,6 +19,11 @@ except json.decoder.JSONDecodeError as e:
 except Exception as e:
     print('Error:', e)
 
+def save(data):
+    with open('data/bibli.json', 'w', encoding='utf-8') as outfile:
+        data = {'bibliotheque': data}
+        json.dump(data, outfile, indent=4, ensure_ascii=False)
+
 def ajouter_livre(titre=None, auteur=None):
     """Ajoute un nouveau livre à la bibliothèque."""
     if titre is None:
@@ -38,6 +43,7 @@ def ajouter_livre(titre=None, auteur=None):
         "disponible": True
     }
     bibliotheque.append(nouveau_livre)
+    save(bibliotheque)
     print(f"Le livre '{titre}' de {auteur} a été ajouté avec succès!")
 
 def afficher_livres(disponible=None):
@@ -62,6 +68,7 @@ def emprunter_livre(titre):
         if livre["titre"].lower() == titre.lower():
             if livre["disponible"]:
                 livre["disponible"] = False
+                save(bibliotheque)
                 print(f"Le livre '{titre}' a été emprunté avec succès!")
             else:
                 print(f"Désolé, le livre '{titre}' est déjà emprunté.")
@@ -74,6 +81,7 @@ def retourner_livre(titre):
         if livre["titre"].lower() == titre.lower():
             if not livre["disponible"]:
                 livre["disponible"] = True
+                save(bibliotheque)
                 print(f"Le livre '{titre}' a été retourné avec succès!")
             else:
                 print(f"Le livre '{titre}' n'était pas emprunté.")
@@ -85,6 +93,7 @@ def supprimer_livre(titre):
     for i, livre in enumerate(bibliotheque):
         if livre["titre"].lower() == titre.lower():
             del bibliotheque[i]
+            save(bibliotheque)
             print(f"Le livre '{titre}' a été supprimé avec succès!")
             return
     print(f"Le livre '{titre}' n'existe pas dans la bibliothèque.")

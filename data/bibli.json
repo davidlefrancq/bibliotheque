@@ -1,20 +1,79 @@
 {
     "bibliotheque": [
-      {"titre": "1984", "auteur": "George Orwell", "disponible": true},
-      {"titre": "Le Petit Prince", "auteur": "Antoine de Saint-Exupéry", "disponible": false},
-      {"titre": "Moby Dick", "auteur": "Herman Melville", "disponible": true},
-      {"titre": "Orgueil et Préjugés", "auteur": "Jane Austen", "disponible": false},
-      {"titre": "Les Misérables", "auteur": "Victor Hugo", "disponible": true},
-      {"titre": "Ulysse", "auteur": "James Joyce", "disponible": false},
-      {"titre": "À la recherche du temps perdu", "auteur": "Marcel Proust", "disponible": true},
-      {"titre": "L'Odyssée", "auteur": "Homère", "disponible": false},
-      {"titre": "Crime et Châtiment", "auteur": "Fiodor Dostoïevski", "disponible": true},
-      {"titre": "Les Aventures de Sherlock Holmes", "auteur": "Arthur Conan Doyle", "disponible": true},
-      {"titre": "Madame Bovary", "auteur": "Gustave Flaubert", "disponible": false},
-      {"titre": "Gatsby le Magnifique", "auteur": "F. Scott Fitzgerald", "disponible": true},
-      {"titre": "Le Seigneur des Anneaux", "auteur": "J.R.R. Tolkien", "disponible": true},
-      {"titre": "Don Quichotte", "auteur": "Miguel de Cervantes", "disponible": false},
-      {"titre": "Anna Karénine", "auteur": "Léon Tolstoï", "disponible": true}
+        {
+            "titre": "1984",
+            "auteur": "George Orwell",
+            "disponible": true
+        },
+        {
+            "titre": "Le Petit Prince",
+            "auteur": "Antoine de Saint-Exupéry",
+            "disponible": false
+        },
+        {
+            "titre": "Moby Dick",
+            "auteur": "Herman Melville",
+            "disponible": false
+        },
+        {
+            "titre": "Orgueil et Préjugés",
+            "auteur": "Jane Austen",
+            "disponible": false
+        },
+        {
+            "titre": "Les Misérables",
+            "auteur": "Victor Hugo",
+            "disponible": true
+        },
+        {
+            "titre": "Ulysse",
+            "auteur": "James Joyce",
+            "disponible": false
+        },
+        {
+            "titre": "À la recherche du temps perdu",
+            "auteur": "Marcel Proust",
+            "disponible": true
+        },
+        {
+            "titre": "L'Odyssée",
+            "auteur": "Homère",
+            "disponible": false
+        },
+        {
+            "titre": "Crime et Châtiment",
+            "auteur": "Fiodor Dostoïevski",
+            "disponible": true
+        },
+        {
+            "titre": "Les Aventures de Sherlock Holmes",
+            "auteur": "Arthur Conan Doyle",
+            "disponible": true
+        },
+        {
+            "titre": "Madame Bovary",
+            "auteur": "Gustave Flaubert",
+            "disponible": false
+        },
+        {
+            "titre": "Gatsby le Magnifique",
+            "auteur": "F. Scott Fitzgerald",
+            "disponible": true
+        },
+        {
+            "titre": "Le Seigneur des Anneaux",
+            "auteur": "J.R.R. Tolkien",
+            "disponible": true
+        },
+        {
+            "titre": "Don Quichotte",
+            "auteur": "Miguel de Cervantes",
+            "disponible": false
+        },
+        {
+            "titre": "Anna Karénine",
+            "auteur": "Léon Tolstoï",
+            "disponible": true
+        }
     ]
-  }
-  
+}
