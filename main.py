@@ -1,8 +1,23 @@
+import json
+
 # Initialisation de la bibliothèque
 bibliotheque = [
-    {"titre": "1984", "auteur": "George Orwell", "disponible": True},
-    {"titre": "Le Petit Prince", "auteur": "Antoine de Saint-Exupéry", "disponible": True},
+    # {"titre": "1984", "auteur": "George Orwell", "disponible": True},
+    # {"titre": "Le Petit Prince", "auteur": "Antoine de Saint-Exupéry", "disponible": True},
 ]
+
+# read json file1
+try:
+    f1 = open('data/bibli.json', 'r', encoding='utf-8')
+    data = json.load(f1)
+    bibliotheque = data.get('bibliotheque')
+    f1.close()
+except FileNotFoundError:
+    print('File not found')
+except json.decoder.JSONDecodeError as e:
+    print('JSON Decode Error:', e)
+except Exception as e:
+    print('Error:', e)
 
 def ajouter_livre(titre=None, auteur=None):
     """Ajoute un nouveau livre à la bibliothèque."""
