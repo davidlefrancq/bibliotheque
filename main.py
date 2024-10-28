@@ -23,6 +23,17 @@ def save(data):
     with open('data/bibli.json', 'w', encoding='utf-8') as outfile:
         data = {'bibliotheque': data}
         json.dump(data, outfile, indent=4, ensure_ascii=False)
+        
+def dispotable(avaliable=True):
+    '''
+    returns a table of books avaliable.
+    if False is passed as param, returns the books that have been borrowed
+    '''
+    table = []
+    for livre in bibliotheque:
+        if avaliable == livre['disponible']: table.append(livre['titre'])
+    return table
+
 
 def ajouter_livre(titre=None, auteur=None):
     """Ajoute un nouveau livre à la bibliothèque."""
@@ -143,11 +154,17 @@ def menu_principal():
         elif choix == "4":
             afficher_livres(disponible=False)
         elif choix == "5":
-            titre = input("Entrez le titre du livre à emprunter : ")
-            emprunter_livre(titre)
+            books = dispotable()
+            for i, title in enumerate(books):
+                print(f'{i+1}. {title}')
+            book = int(input("Entrez le numéro du livre à emprunter : ")) - 1
+            emprunter_livre(books[book])
         elif choix == "6":
-            titre = input("Entrez le titre du livre à retourner : ")
-            retourner_livre(titre)
+            books = dispotable(False)
+            for i, title in enumerate(books):
+                print(f'{i+1}. {title}')
+            book = int(input("Entrez le numéro du livre à rendre : ")) - 1
+            retourner_livre(books[book])
         elif choix == "7":
             titre = input("Entrez le titre du livre à supprimer : ")
             supprimer_livre(titre)

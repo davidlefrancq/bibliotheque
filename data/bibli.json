@@ -13,7 +13,7 @@
         {
             "titre": "Moby Dick",
             "auteur": "Herman Melville",
-            "disponible": false
+            "disponible": true
         },
         {
             "titre": "Orgueil et Préjugés",
@@ -68,7 +68,7 @@
         {
             "titre": "Don Quichotte",
             "auteur": "Miguel de Cervantes",
-            "disponible": false
+            "disponible": true
         },
         {
             "titre": "Anna Karénine",
