@@ -1,14 +1,64 @@
 {
     "membres": [
-        {"nom": "Alice Dupont", "id": 1, "emprunts": []},
-        {"nom": "Bob Martin", "id": 2, "emprunts": []},
-        {"nom": "Caroline Durand", "id": 3, "emprunts": []},
-        {"nom": "David Lambert", "id": 4, "emprunts": []},
-        {"nom": "Emma Rolland", "id": 5, "emprunts": []},
-        {"nom": "François Petit", "id": 6, "emprunts": []},
-        {"nom": "Gisèle Bernard", "id": 7, "emprunts": []},
-        {"nom": "Hugo Lefevre", "id": 8, "emprunts": []},
-        {"nom": "Isabelle Morel", "id": 9, "emprunts": []},
-        {"nom": "Jean-Claude Perrin", "id": 10, "emprunts": []}
+        {
+            "nom": "Alice Dupont",
+            "id": 1,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "Bob Martin",
+            "id": 2,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "Caroline Durand",
+            "id": 3,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "David Lambert",
+            "id": 4,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "Emma Rolland",
+            "id": 5,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "François Petit",
+            "id": 6,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "Gisèle Bernard",
+            "id": 7,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "Hugo Lefevre",
+            "id": 8,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "Isabelle Morel",
+            "id": 9,
+            "livres_empruntes": [],
+            "penalites": 0
+        },
+        {
+            "nom": "Jean-Claude Perrin",
+            "id": 10,
+            "livres_empruntes": [],
+            "penalites": 0
+        }
     ]
 }

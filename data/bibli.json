@@ -3,77 +3,107 @@
         {
             "titre": "1984",
             "auteur": "George Orwell",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Le Petit Prince",
             "auteur": "Antoine de Saint-Exupéry",
-            "disponible": false
+            "disponible": false,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Moby Dick",
             "auteur": "Herman Melville",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Orgueil et Préjugés",
             "auteur": "Jane Austen",
-            "disponible": false
+            "disponible": false,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Les Misérables",
             "auteur": "Victor Hugo",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Ulysse",
             "auteur": "James Joyce",
-            "disponible": false
+            "disponible": false,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "À la recherche du temps perdu",
             "auteur": "Marcel Proust",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "L'Odyssée",
             "auteur": "Homère",
-            "disponible": false
+            "disponible": false,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Crime et Châtiment",
             "auteur": "Fiodor Dostoïevski",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Les Aventures de Sherlock Holmes",
             "auteur": "Arthur Conan Doyle",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Madame Bovary",
             "auteur": "Gustave Flaubert",
-            "disponible": false
+            "disponible": false,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Gatsby le Magnifique",
             "auteur": "F. Scott Fitzgerald",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Le Seigneur des Anneaux",
             "auteur": "J.R.R. Tolkien",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Don Quichotte",
             "auteur": "Miguel de Cervantes",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         },
         {
             "titre": "Anna Karénine",
             "auteur": "Léon Tolstoï",
-            "disponible": true
+            "disponible": true,
+            "emprunteur_id": null,
+            "date_emprunt": null
         }
     ]
 }
