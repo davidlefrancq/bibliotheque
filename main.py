@@ -2,8 +2,9 @@ import json
 
 # Initialisation de la bibliothèque
 bibliotheque = []
+membres = []
 
-# read json file1
+# read json file
 try:
     f1 = open('data/bibli.json', 'r', encoding='utf-8')
     data = json.load(f1)
@@ -15,6 +16,21 @@ except json.decoder.JSONDecodeError as e:
     print('JSON Decode Error:', e)
 except Exception as e:
     print('Error:', e)
+
+# read json file
+try:
+    f2 = open('data/membre.json', 'r', encoding='utf-8')
+    data2 = json.load(f2)
+    membres = data2.get('membres')
+    f2.close()
+except FileNotFoundError:
+    print('File not found')
+except json.decoder.JSONDecodeError as e:
+    print('JSON Decode Error:', e)
+except Exception as e:
+    print('Error:', e)
+
+print('Membres:', membres)
 
 def save(data):
     with open('data/bibli.json', 'w', encoding='utf-8') as outfile:
