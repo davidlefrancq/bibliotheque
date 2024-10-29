@@ -1,10 +1,7 @@
 import json
 
 # Initialisation de la bibliothèque
-bibliotheque = [
-    # {"titre": "1984", "auteur": "George Orwell", "disponible": True},
-    # {"titre": "Le Petit Prince", "auteur": "Antoine de Saint-Exupéry", "disponible": True},
-]
+bibliotheque = []
 
 # read json file1
 try:

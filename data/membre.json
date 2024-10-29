@@ -1,0 +1,14 @@
+{
+    "membres": [
+        {"nom": "Alice Dupont", "id": 1, "emprunts": []},
+        {"nom": "Bob Martin", "id": 2, "emprunts": []},
+        {"nom": "Caroline Durand", "id": 3, "emprunts": []},
+        {"nom": "David Lambert", "id": 4, "emprunts": []},
+        {"nom": "Emma Rolland", "id": 5, "emprunts": []},
+        {"nom": "François Petit", "id": 6, "emprunts": []},
+        {"nom": "Gisèle Bernard", "id": 7, "emprunts": []},
+        {"nom": "Hugo Lefevre", "id": 8, "emprunts": []},
+        {"nom": "Isabelle Morel", "id": 9, "emprunts": []},
+        {"nom": "Jean-Claude Perrin", "id": 10, "emprunts": []}
+    ]
+}
